@@ -7,11 +7,11 @@ let totalImages = 0;
 let photosArray = [];
 
 // Unsplash API
-const count = 30;
+let count = 5;
 // I should use .env file and hide this key and stop being visible like this.
 // but i want to host this as github static page which does not support server side things.
 const apiKey = "63C2Lw6hDbQifZ7hPJ8V9dNTMzNsoZ1_eMIK1k3dRCc";
-const apiUrl = `https://api.unsplash.com/photos/random?client_id=${apiKey}&count=${count}`;
+let apiUrl = `https://api.unsplash.com/photos/random?client_id=${apiKey}&count=${count}`;
 
 // Check if all images were loaded
 function imageLoaded() {
@@ -19,6 +19,8 @@ function imageLoaded() {
   if (imagesLoaded === totalImages) {
     ready = true;
     loader.hidden = true;
+    count = 30;
+    apiUrl = `https://api.unsplash.com/photos/random?client_id=${apiKey}&count=${count}`;
   }
 }
 
