@@ -9,8 +9,7 @@ let isInitialLoad = true;
 
 // Unsplash API
 let count = 5;
-// I should use .env file and hide this key and stop being visible like this.
-// but i want to host this as github static page which does not support server side things.
+// Ideally, use a .env file to hide 👇🏻this key, but GitHub Pages is static and doesn't support server-side functionality.
 const apiKey = "63C2Lw6hDbQifZ7hPJ8V9dNTMzNsoZ1_eMIK1k3dRCc";
 let apiUrl = `https://api.unsplash.com/photos/random?client_id=${apiKey}&count=${count}`;
 
