@@ -74,7 +74,7 @@ This project is licensed under the [MIT License](LICENSE).
 
 Feel free to contribute or share feedback by opening an issue or submitting a pull request!
 
-```
+
 
 Let me know if you'd like to refine any section or include additional details!
-```
+
