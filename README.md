@@ -9,10 +9,6 @@ This project demonstrates an **infinite scrolling web application** that dynamic
 - **Responsive Design**: Works well on devices of all sizes with a clean, minimalistic design.
 - **Loading Animation**: Displays a loader while fetching images to enhance user feedback.
 
-## Demo
-
-You can view the live version of the project hosted on **GitHub Pages**: [(https://neendudev.github.io/Infinity-Scroll/)].
-
 ## Project Structure
 
 ```plaintext
@@ -54,6 +50,10 @@ You can view the live version of the project hosted on **GitHub Pages**: [(https
 ## Screenshots
 
 ![Application Screenshot](screenshot.png)
+
+## Demo
+
+You can view the live version of the project hosted on **GitHub Pages**: [Click here](https://neendudev.github.io/Infinity-Scroll/).
 
 ## Future Improvements
 
