@@ -63,7 +63,7 @@ You can view the live version of the project hosted on **GitHub Pages**: [Click 
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [MIT License](./LICENSE.txt).
 
 ## Acknowledgments
 
@@ -74,7 +74,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 Feel free to contribute or share feedback by opening an issue or submitting a pull request!
 
-
-
 Let me know if you'd like to refine any section or include additional details!
-
